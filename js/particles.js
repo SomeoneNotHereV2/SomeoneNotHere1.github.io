@@ -12,9 +12,9 @@ particlesJS("particles-js", {
         "value": "#ffffff"
       },
       "shape": {
-        "type": "circle",
+        "type": "square",
         "stroke": {
-          "width": 0,
+          "width": 1,
           "color": "#00ff00"
         },
         "polygon": {
