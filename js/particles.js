@@ -1,4 +1,4 @@
-/* ---- particles.js config ---- */
+x/* ---- particles.js config ---- */
 particlesJS("particles-js", {
     "particles": {
       "number": {
@@ -12,9 +12,9 @@ particlesJS("particles-js", {
         "value": "#ffffff"
       },
       "shape": {
-        "type": "square",
+        "type": "circle",
         "stroke": {
-          "width": 1,
+          "width": -1,
           "color": "#00ff00"
         },
         "polygon": {
