@@ -14,8 +14,8 @@ particlesJS("particles-js", {
       "shape": {
         "type": "circle",
         "stroke": {
-          "width": 0,
-          "color": "#00ff00"
+          "width": 1,
+          "color": "#18acd9"
         },
         "polygon": {
           "nb_sides": 5
@@ -60,7 +60,7 @@ particlesJS("particles-js", {
         "random": true,
         "straight": false,
         "out_mode": "out",
-        "bounce": false,
+        "bounce": true,
         "attract": {
           "enable": false,
           "rotateX": 600,
