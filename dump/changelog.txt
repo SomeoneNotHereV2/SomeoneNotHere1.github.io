@@ -15,7 +15,6 @@ NOTE: Make sure you refresh the page! Sometimes you will not get the lastest upd
 
 🐱 | Changes by u4pak
 🐧 | Changes by Piplup7575
-🕹️ | Changes by ThatOnePerson (AKA RetroWonder)
    | Changes by Echo (unless specified)
 
 + Means something was added
@@ -23,8 +22,7 @@ NOTE: Make sure you refresh the page! Sometimes you will not get the lastest upd
 - Means something was removed
 ------------------------------------------------------------
 May, 14
-+ Added 50+ Games 🕹️
-^ Re Added the Heroku deployment method! 🕹️
++ Added 50+ Games (Thank you ThatOnePerson!)
 ------------------------------------------------------------
 May, 13
 + Added gimme the airpod
