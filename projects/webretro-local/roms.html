@@ -1,39 +1,322 @@
-<!doctype html>
-  <html>
-  <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
-    <title>Rom Selector</title>
-    <meta name="description" content="me when embed"/>
-    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#434c5e"/>
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/icon102.png"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
-    <link rel="dns-prefetch" href="https://fonts.googleapis.com"/>
-    <link rel="stylesheet" href="assets/css/styles.css"/>
-    <link rel="prefetch" as="script" href="https://cdn.jsdelivr.net/npm/tsparticles@1.39.2/tsparticles.pathseg.min.js"/>
-    <script charset="utf-8" data-webpack="tsparticles:chunk-404" src="https://cdn.jsdelivr.net/npm/tsparticles@1.39.2/tsparticles.pathseg.min.js"/>
-    <link rel="stylesheet" href="chrome-extension://iheobagjkfklnlikgihanlhcddjoihkg/fonts/Metropolis.css"/>
-  </head>
-
-  <body rw4gci="true">
-    <div id="mainbody" class="fullwidth">
-      <div class="box-g text-center textm">
-        <div id="glist">
-          <a href="./index.html/?core=autodetect&rom=earthbound.smc">
-            <img src="https://google.com/favicon.ico"/>
-            <h3>Earthbound</h3>
-            <p>what</p>
-          </a>
-        </div>
-        <div class="gfooter">
-          <p>
-            Have a game request? Make a
-            <a id="hblink" href="https://github.com/3kh0/3kh0.github.io">pull request</a> or <a href="https://github.com/3kh0/3kh0.github.io">issue</a> on github
-            !
-          </p>
-          <p>More games coming soon!</p>
-        </div>
-      </div>
-    </div>
-  </body>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
+<title>H­o­ly Un­blo­ck­er</title>
+<meta name="description" content="Ho­ly Unbl­o­c­ker is a se­c­ure we­b pr­ox­y se­rvi­ce with sup­po­rt for many sit­es. By­pa­ss fi­l­ter­s and fr­ee­ly enj­oy a saf­er pr­iva­te b­rowsi­ng expe­ri­ence or u­nblo­ck webs­ites on de­vices such as Chr­omebo­oks and at plac­es li­ke sch­o­ol or wor­k with­out do­wnload­ing anythi­ng."/>
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#434c5e"/>
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/icon.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="dns-prefetch" href="https://fonts.googleapis.com"/>
+<link rel="stylesheet" href="assets/css/styles.css"/>
+<link rel="prefetch" as="script" href="https://cdn.jsdelivr.net/npm/tsparticles@1.39.2/tsparticles.pathseg.min.js"/>
+<script charset="utf-8" data-webpack="tsparticles:chunk-404" src="https://cdn.jsdelivr.net/npm/tsparticles@1.39.2/tsparticles.pathseg.min.js"/>
+</head>
+<body rw4gci="true">
+<div id="header" class="fullwidth">
+<a href="/" class="brand">H­o­ly U­n­b­lo­c­k­er</a>
+<input id="mnavecb" type="checkbox"/>
+<label for="mnavecb" class="mnave">
+<span class="mnavebutton"/>
+</label>
+<ul class="navbar">
+<li>
+<a href="/surf.html">W­eb Pr­ox­ie­s</a>
+</li>
+<li>
+<a href="/gtools.html">G­a­me­s</a>
+</li>
+<li>
+<a href="/spotify.html">S­poti­fy</a>
+</li>
+<li>
+<a href="/youtube.html">Yo­uT­u­be</a>
+</li>
+<li>
+<a href="/discord.html">D­isc­or­d</a>
+</li>
+<li>
+<a href="/reddit.html">Re­dd­it</a>
+</li>
+<li class="dropdown-parent">
+<a href="#">
+M­or­e
+<i class="fas fa-ellipsis-v"/>
+</a>
+<div class="dropdown-child" tabindex="0">
+<ul class="subnavbar">
+<i class="fas fa-bars"/>
+<li>
+<a href="/bookmarklets.html">Book­mark­lets</a>
+</li>
+<li>
+<a href="/docs.html">Docs</a>
+</li>
+<li>
+<a href="/faq.html">FA­Q</a>
+</li>
+<li>
+<a href="/credits.html">Credit­s</a>
+</li>
+<li>
+<a href="/terms.html">TO­S</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="dropdown-parent">
+<a href="#">
+Settings
+<i class="fas fa-cog"/>
+</a>
+<div class="dropdown-child" tabindex="0">
+<div id="csel">
+<p class="cseltitle">Tab Cloak</p>
+<p class="csellabel">Change the title:</p>
+<form class="cselform" id="titleform">
+<input type="text" placeholder="Tab Title" spellcheck="false"/>
+<input class="cselbutton" type="submit" value="Apply"/>
+</form>
+<p class="csellabel">
+Change the
+<a href="/?i">icon</a>
+:
+</p>
+<form class="cselform" id="iconform">
+<input type="text" placeholder="Icon URL" spellcheck="false"/>
+<input class="cselbutton" type="submit" value="Apply"/>
+</form>
+<input id="cselreset" class="cselbutton" type="button" value="Reset"/>
+<p class="csellabel">
+<input id="hideads" type="checkbox"/>
+<span>Hide Ads</span>
+</p>
+<p>Ads help support H­o­ly U­nb­lock­er!</p>
+</div>
+</div>
+</li>
+</ul>
+</div>
+<div id="particles-js" class="fullwidth"/>
+<div id="mainbody" class="fullwidth">
+<div class="box-g text-center textm">
+<div id="glist">
+<a href="https://milklookupguide.com/emulibrary.html">
+<img src="/assets/img/emulib/fireemblem.png"/>
+<h3>Fire Emblem</h3>
+<p>Destroy your enemies in this tactical role-playing game!</p>
+</a>
+<a href="https://milklookupguide.com/emulibrary.html">
+<img src="/assets/img/emulib/finalfantasy3.png"/>
+<h3>Final Fantasy 3</h3>
+<p>Action role-playing game, known as FF IV outside of the US.</p>
+</a>
+<a href="https://milklookupguide.com/emulibrary.html">
+<a href="https://milklookupguide.com/emulibrary.html">
+<a href="https://milklookupguide.com/emulibrary.html">
+<a href="https://milklookupguide.com/emulibrary.html">
+<a href="https://milklookupguide.com/emulibrary.html">
+<a href="https://milklookupguide.com/emulibrary.html">
+<a href="https://milklookupguide.com/emulibrary.html">
+<a href="https://milklookupguide.com/emulibrary.html">
+<a href="https://milklookupguide.com/emulibrary.html">
+<a href="https://milklookupguide.com/emulibrary.html">
+<a href="https://milklookupguide.com/emulibrary.html">
+<a href="https://milklookupguide.com/emulibrary.html">
+<a href="https://milklookupguide.com/emulibrary.html">
+<a href="https://milklookupguide.com/emulibrary.html">
+<a href="https://milklookupguide.com/emulibrary.html">
+<a href="https://milklookupguide.com/emulibrary.html">
+<a href="https://milklookupguide.com/emulibrary.html">
+<a href="https://milklookupguide.com/emulibrary.html">
+<a href="https://milklookupguide.com/emulibrary.html">
+<a href="https://milklookupguide.com/emulibrary.html">
+<a href="https://milklookupguide.com/emulibrary.html">
+<a href="https://milklookupguide.com/emulibrary.html">
+<a href="https://milklookupguide.com/emulibrary.html">
+<a href="https://milklookupguide.com/emulibrary.html">
+<a href="https://milklookupguide.com/emulibrary.html">
+<a href="https://milklookupguide.com/emulibrary.html">
+<a href="https://milklookupguide.com/emulibrary.html">
+<a href="https://milklookupguide.com/emulibrary.html">
+<a href="https://milklookupguide.com/emulibrary.html">
+<a href="https://milklookupguide.com/emulibrary.html">
+<a href="https://milklookupguide.com/emulibrary.html">
+<a href="https://milklookupguide.com/emulibrary.html">
+<a href="https://milklookupguide.com/emulibrary.html">
+<a href="https://milklookupguide.com/emulibrary.html">
+<a href="https://milklookupguide.com/emulibrary.html">
+<a href="https://milklookupguide.com/emulibrary.html">
+<a href="https://milklookupguide.com/emulibrary.html">
+<a href="https://milklookupguide.com/emulibrary.html">
+</div>
+<div class="gfooter">
+<p>
+Have a game request? Contact us on
+<a id="tnlink" href="https://discord.gg/CwWpdGkuWY">d­isc­or­d</a>
+or make a
+<a id="hblink" href="https://github.com/titaniumnetwork-dev/Holy-Unblocker">pull request or issue</a>
+!
+</p>
+<p>More games coming soon!</p>
+</div>
+</div>
+</div>
+<div id="footer" class="fullwidth">
+<div class="footerflex">
+<div class="footerbrand">
+<h3>
+<a href="/">
+Ho
+<wbr/>
+ly Unb
+<wbr/>
+lo
+<wbr/>
+c
+<wbr/>
+ker
+</a>
+</h3>
+<p>
+Ma
+<wbr/>
+de by St
+<wbr/>
+ud
+<wbr/>
+en
+<wbr/>
+ts, Fo
+<wbr/>
+r Stu
+<wbr/>
+den
+<wbr/>
+ts.
+</p>
+</div>
+<div class="footerlist">
+<h3>
+Se
+<wbr/>
+rvic
+<wbr/>
+es
+</h3>
+<ul>
+<li>
+<a target="_blank" href="https://github.com/titaniumnetwork-dev/Ultraviolet">
+Ult
+<wbr/>
+r
+<wbr/>
+av
+<wbr/>
+io
+<wbr/>
+let
+</a>
+</li>
+<li>
+<a target="_blank" href="https://discord.gg/VNT4E7gN5Y">
+Ra
+<wbr/>
+mmerhea
+<wbr/>
+d
+</a>
+</li>
+<li>
+<a target="_blank" href="https://github.com/binary-person/womginx">
+Wo
+<wbr/>
+mgi
+<wbr/>
+n
+<wbr/>
+x
+</a>
+</li>
+</ul>
+</div>
+<div class="footerlist">
+<h3>About</h3>
+<ul>
+<li>
+<a target="_blank" href="https://github.com/titaniumnetwork-dev/Holy-Unblocker">
+G
+<wbr/>
+itH
+<wbr/>
+ub
+</a>
+</li>
+<li>
+<a href="/terms.html">
+P
+<wbr/>
+riva
+<wbr/>
+cy and Te
+<wbr/>
+rms of Ser
+<wbr/>
+v
+<wbr/>
+ice
+</a>
+</li>
+<li>
+<a href="/credits.html">
+Cre
+<wbr/>
+dit
+<wbr/>
+s
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="footersocials">
+<a target="_blank" class="soc-github" href="https://github.com/titaniumnetwork-dev/Holy-Unblocker">
+<i class="fab fa-github"/>
+</a>
+<a target="_blank" class="soc-patreon" href="https://www.patreon.com/holyunblocker">
+<i class="fab fa-patreon"/>
+</a>
+</div>
+<p class="copyright">
+H
+<wbr/>
+ol
+<wbr/>
+y U
+<wbr/>
+nb
+<wbr/>
+lo
+<wbr/>
+cke
+<wbr/>
+r © 2022
+</p>
+</div>
+<script src="assets/js/common.js"/>
+<script src="assets/js/common.js"/>
+<script src="assets/js/links.js"/>
+<script src="assets/js/links.js"/>
+<script src="assets/js/gnav/emulib-nav.js"/>
+<script src="assets/js/gnav/emulib-nav.js"/>
+<script src="assets/js/header.js"/>
+<script src="assets/js/header.js"/>
+<script src="assets/js/csel.js"/>
+<script src="assets/js/csel.js"/>
+<script src="assets/js/footer.js"/>
+<script src="assets/js/footer.js"/>
+<script defer="defer" src="assets/js/particlesjs/particles.js"/>
+<script defer="defer" src="assets/js/particlesjs/particles.js"/>
+<iframe src="about:blank" frameborder="0" style="border: 0px; visibility: visible; z-index: 2147483647; position: fixed; width: 100%; left: 0px; bottom: 0px; height: 250px;" allow="autoplay 'self'; fullscreen 'self'" id="FirebugUI"/>
+</body>
 </html>
